@@ -2,6 +2,12 @@
 
 This repository is a guided tour through the fundamentals of building a stateful network service in Rust. It's structured as a Cargo workspace where each step in the learning path is a distinct, runnable crate. You will start with the simplest possible TCP server and progressively build up to a complete, asynchronous, Redis-like key-value store.
 
+## 📚 Documentation
+A full documentation bundle, including a learning roadmap, architecture overview, and supporting references, is available on Google Drive.
+
+*   **[Main Documentation Bundle](https://docs.google.com/document/d/1Ru4izRI2wzQr5HrVPsdz-feKxd2FJNQP9gJOSZolBEo/edit?usp=drivesdk)**
+*   **[Project Folder on Google Drive](https://drive.google.com/drive/folders/1G_ZNOc1DH0ZqfLXi2tAPo_Bz4jok0-qn)**
+
 The pedagogical approach is to intentionally introduce a problem in one step and then demonstrate the modern, idiomatic solution in the next. This creates a strong mental model and a deep understanding of *why* the Rust networking ecosystem is designed the way it is.
 
 ## The Learning Journey
