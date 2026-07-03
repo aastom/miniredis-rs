@@ -1,0 +1,8 @@
+[package]
+name = "step-05-kv-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { workspace = true }
+step-04-kv-logic = { path = "../step-04-kv-logic" }
