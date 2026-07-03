@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "step-01-echo-blocking",
+    "step-02-echo-threaded",
+    "step-03-echo-async",
+    "step-04-kv-logic",
+    "step-05-kv-server",
+    "client",
+]
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["full"] }
